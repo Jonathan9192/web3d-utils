@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.web3d</groupId>
+  <artifactId>web3d-utils</artifactId>
+  <version>1.0.0</version>
+  <name>web3d-utils</name>
+  <description>utils from org.web3d</description>
+  
+    <dependencies>
+<!-- https://mvnrepository.com/artifact/org.j3d/j3d-core -->
+<dependency>
+    <groupId>org.j3d</groupId>
+    <artifactId>j3d-core</artifactId>
+    <version>3.0.1</version>
+</dependency>
+
+
+  	<dependency>
+  		<groupId>toxi</groupId>
+  		<artifactId>toxiclibs-core</artifactId>
+  		<version>1.0.20</version>
+  	</dependency>
+  </dependencies>
+  
+  <repositories>
+    <repository>
+        <id>toxiclibs-core-mvn-repo</id>
+        <url>https://raw.github.com/Jonathan9192/maven-repo/master/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+</repositories>
+</project>
